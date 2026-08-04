@@ -8,6 +8,13 @@
 Changes
 =======
 
+Version v9.1.0 (released 2026-08-04)
+
+- fix(i18n): include *.mo files in distribution
+- cli: don't allow role changes on externally managed
+- feat: support unmanaged roles with distinct id and name
+- feat: enforce Role id and name are equal
+
 Version v9.0.1 (released 2026-07-16)
 
 - chore(setup): migrate from setuptools to hatchling
